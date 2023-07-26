@@ -1,4 +1,6 @@
 # mongodb 조회용 python 스크립트입니다.
+
+### 사용하는 모듈
 ```
 python = "^3.11"
 pytz = "^2023.3"
@@ -6,6 +8,17 @@ pandas = "^2.0.3"
 pymongo = "^4.4.1"
 openpyxl = "^3.1.2"
 ```
+
+### poetry를 이용한 설치 방법
+```
+poetry install
+```
+
+### pip를 이용한 설치 방법
+```
+pip install -r requirements.txt
+```
+
 
 ### 각 몽고DB 호스트 별로 collection 조회를 진행합니다.
 ```
