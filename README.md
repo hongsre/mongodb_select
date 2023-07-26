@@ -18,7 +18,9 @@ poetry install
 ```
 pip install -r requirements.txt
 ```
+---
 
+# 스크립트 셋팅
 
 ### 각 몽고DB 호스트 별로 collection 조회를 진행합니다.
 ```
@@ -59,7 +61,9 @@ end_datetime_str = "2022-10-13 20:59:59"
 range_ts_u = 3600
 ```
 
-### 위 설정을 완료하면 아래 명령어로 실행해 주시면됩니다.
+---
+
+# 실행 명령어
 ```
 python mongodb_select.py
 ```
